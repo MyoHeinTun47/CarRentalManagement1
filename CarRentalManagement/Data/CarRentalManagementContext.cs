@@ -10,7 +10,7 @@ namespace CarRentalManagement.Data
     {
         public DbSet<Make> Make { get; set; } = default!;
         public DbSet<Model> Model { get; set; } = default!;
-        public DbSet<Color> Color { get; set; } = default!;
+        public DbSet<Color> Color { get; set; } = default!;  
         public DbSet<Vehicle> Vehicle { get; set; } = default!;
         public DbSet<Booking> Booking { get; set; } = default!;
         public DbSet<Customer> Customer { get; set; } = default!;
